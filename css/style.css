@@ -1,10 +1,9 @@
 body{
-    background-color: #093;
     color:#fff;
 }
 .conteiner{
+    
     background-image: url("../assets/REP-1.jpg");
-    background-color: rgba(255,255,255,0.3);
     background-size: cover;
 }
 .main{
@@ -13,14 +12,14 @@ body{
     margin: 0 auto;
     height: 500px;
     max-height: 90%;
-
+    
 }
 .left h1{
     font-size: 35px;
     line-height: 37px;
 }
 .left ul{
-
+    
     padding-left: 3rem;
     padding-top: 1rem;
 }
@@ -28,13 +27,39 @@ body{
     text-transform: uppercase;
 }
 .second{
+    background-color: #093;
+    width: 100%;
+
+}
+.auto-center{margin: 0 auto;}
+.second-conteiner{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 1rem;
+    width: 950px;
+    max-width: 95%;
+    margin: 0 auto;
+    
 }
-.second h1{
+.second-conteiner h1{
     font-size:50px;
     margin: 1rem;
+
+}
+
+h2{
+    font-size: 30px;
+}
+.explain{
+    font-size: 1.5rem;
+}
+.show{
+    background-color: #ffffff;
+    padding: 2rem;
+    color: #000;
+    width: 970px;
+    max-width: 95%;
+    margin: 0 auto;
 }

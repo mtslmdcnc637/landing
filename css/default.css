@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+}
 
 .flex-column{
     display: flex;
@@ -36,4 +39,12 @@
 }
 .w-full{
     width: 100%;
+}
+.for-left{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: left;
+}
+.bg-white{
+    background-color: #ffffff;
 }
