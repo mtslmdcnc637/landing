@@ -1,3 +1,40 @@
 body{
     background-color: #093;
+    color:#fff;
+}
+.conteiner{
+    background-image: url("../assets/REP-1.jpg");
+    background-color: rgba(255,255,255,0.3);
+    background-size: cover;
+}
+.main{
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 500px;
+    max-height: 90%;
+
+}
+.left h1{
+    font-size: 35px;
+    line-height: 37px;
+}
+.left ul{
+
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+.left ul li{
+    text-transform: uppercase;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+.second h1{
+    font-size:50px;
+    margin: 1rem;
 }
